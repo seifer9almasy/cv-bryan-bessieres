@@ -7,7 +7,7 @@ export const GET = async () => {
   })
 
   const data = await payload.find({
-    collection: 'users',
+    collection: 'resumes',
   })
 
   return Response.json(data)
